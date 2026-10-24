@@ -28,6 +28,8 @@
   h1{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(56px,16vw,96px);line-height:1;color:var(--orange);letter-spacing:-.01em}
   h1 .oo{color:var(--mint)}
   h1 sup{font-size:.42em;vertical-align:.95em;margin-left:.04em}
+  /* the trade mark sign: small and quiet, so it doesn't compete with the wordmark */
+  h1 .tm{font-family:var(--f-body);font-weight:500;font-size:.16em;vertical-align:2.6em;margin-left:.12em;color:var(--muted);letter-spacing:0}
   .tag{margin:0;font-size:clamp(18px,4.6vw,22px);font-weight:500;max-width:28ch}
   .soon{display:inline-block;margin:0;padding:8px 16px;border-radius:999px;border:1px solid rgba(99,227,200,.35);
     color:var(--mint);font-weight:500;font-size:15px}
@@ -38,10 +40,10 @@
 </style>
 </head>
 <body>
-  <h1>D<span class="oo">oo</span>t<sup>2</sup></h1>
+  <h1>D<span class="oo">oo</span>t<sup>2</sup><span class="tm" aria-label="trade mark">TM</span></h1>
   <p class="tag">Doot doot! Something’s on its way.</p>
   <p class="soon">Coming soon to Android</p>
   <p class="contact">Say hello: <a href="mailto:hello@dootdoot.app">hello@dootdoot.app</a></p>
-  <footer>© 2026 Doot². All rights reserved.</footer>
+  <footer>© 2026 Doot². All rights reserved. DOOT™ is a trade mark.</footer>
 </body>
 </html>
